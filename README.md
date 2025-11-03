@@ -1,6 +1,6 @@
-# 🌴 Welcome to Palm-KSA
+#  Welcome to Palm-KSA
 
-## 🧾 Project Information
+##  Project Information
 
 **Project Name**: Palm-KSA  
 **Project URL**: https://palm-ksa.dev (replace with your real URL)
