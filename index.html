@@ -1,58 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>سافانا - نظام التحقق ببصمة الكف</title>
+    <meta
+      name="description"
+      content="سافانا - نظام متطور للتحقق من الهوية باستخدام بصمة الكف والأوردة مع تشفير آمن"
+    />
 
-    <title>سافانا — نظام التحقق ببصمة الكف</title>
-    <meta name="description" content="سافانا — نظام متطور للتحقق من الهوية باستخدام بصمة الكف والأوردة مع تشفير غير قابل للعكس للتطبيقات المالية والأمنية" />
-    <meta name="author" content="سافانا" />
-    <meta name="keywords" content="بصمة الكف, التحقق من الهوية, الأمان, الدفع الإلكتروني, الحضور والانصراف" />
+    <!-- OG & Twitter -->
+    <meta property="og:title" content="سافانا - نظام التحقق ببصمة الكف" />
+    <meta property="og:description" content="نظام متطور للتحقق من الهوية ببصمة الكف" />
+    <meta property="og:image" content="./og-savana.png" />
+    <meta name="twitter:image" content="./og-savana.png" />
 
-    <!-- OpenGraph / Social -->
-    <meta property="og:locale" content="ar_AR" />
-    <meta property="og:title" content="سافانا — نظام التحقق ببصمة الكف" />
-    <meta property="og:description" content="نظام متطور للتحقق من الهوية ببصمة الكف والأوردة مع تشفير آمن" />
-    <meta property="og:type" content="website" />
-    <!-- غيّر الرابط التالي إلى صورة خاصة بك في مجلد public -->
-    <meta property="og:image" content="/images/og-savana.png" />
-    <meta property="og:url" content="https://example.com" />
+    <!-- Favicon -->
+    <link rel="icon" href="./favicon.ico" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@your_twitter" />
-    <meta name="twitter:title" content="سافانا — نظام التحقق ببصمة الكف" />
-    <meta name="twitter:description" content="نظام متطور للتحقق من الهوية ببصمة الكف والأوردة" />
-    <meta name="twitter:image" content="/images/og-savana.png" />
-
-    <!-- Favicon & Web Manifest -->
-     <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico" />
-
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-
-    <!-- Professional Arabic Fonts -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Optional: basic RTL reset -->
     <style>
-      :root { font-family: "IBM Plex Sans Arabic", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
-      html,body,#root { height:100%; margin:0; direction:rtl; }
+      html, body, #root {
+        height: 100%;
+        margin: 0;
+        direction: rtl;
+        font-family: "IBM Plex Sans Arabic", sans-serif;
+        background-color: #fff;
+      }
     </style>
-
-    <!-- إرشادات للمطور: ضع هنا روابط CSS وملفات التعريف الخاصة بك -->
-    <!-- <link rel="stylesheet" href="/styles/main.css" /> -->
   </head>
 
   <body>
-    <div id="root"><!-- تطبيق SPA يحمّل هنا --></div>
-
-    <!-- تحميل سكربت التطبيق -->
-    <script type="module" src="/src/main.tsx"></script>
-
-    <!-- Google Analytics / Tag manager: انسخ كودك هنا إذا رغبت -->
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
   </body>
 </html>

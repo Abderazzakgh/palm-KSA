@@ -3,7 +3,7 @@
 ##  Project Information
 
 **Project Name**: Palm-KSA  
-**Project URL**: https://palm-ksa.dev (replace with your real URL)
+**Project URL**: http://localhost:8081/ 
 
 Palm-KSA is a modern web application built with cutting-edge technologies to deliver a smooth, elegant, and scalable experience.  
 
